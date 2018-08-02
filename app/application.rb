@@ -8,6 +8,7 @@ class Application
       resp.write "Hello,World! Morning"
     else
       resp.write "Hello,World! Afternoon"
+    end
     resp.finish
   end
 
