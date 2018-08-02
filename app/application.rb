@@ -4,7 +4,7 @@ class Application
     resp = Rack::Response.new
     time_now = Time.now.strftime('%H:%M')
     time_compare_with = '12:00'
-    if time_now < time _compare_with
+    if time_now < time_compare_with
       resp.write "Hello,World! Morning"
     else
       resp.write "Hello,World! Afternoon"
